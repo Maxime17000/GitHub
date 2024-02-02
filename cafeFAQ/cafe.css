@@ -1,0 +1,74 @@
+body{
+    background-color: #F7F5F1;
+    text-align: center; 
+}
+
+.faq{
+    margin-left: 48%;
+    margin-right: 48%;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+}
+
+
+/* ligne blanche avec le bouton a droite  */
+.ligneblanche{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+
+/* ligne grise avec le bouton a droite  */
+.lignegrise{
+    margin-bottom: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F7F5F1;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.text{
+    margin-right: 25px;
+}
+
+.button{
+    font-size: 25px;
+    color: white;
+    background-color: black;
+   margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+
+@media only screen and (max-width : 768px)  {
+
+    .ligneblanche{
+        margin: auto
+    }
+
+    .lignegrise{
+        margin: auto;
+    }
+
+    .faq{
+        margin: 30px;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    
+}
